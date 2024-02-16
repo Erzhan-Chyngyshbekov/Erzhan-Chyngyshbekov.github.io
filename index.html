@@ -1,56 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/jpg" href="./love-birds.png"/>
-    <title>MY LOVE</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
-      rel="stylesheet"
-    />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>For My Love</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="theme-color" content="#F26B38">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <h1>Adelina</h1>
-      <img src="./koala-love.gif" />
-      <h1>For the best girl in the world</h1>
-    </div>
-    <style>
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-      html, body{
-        height: 100%;
-        background-color: #f6f0de;
-      }
-      .container {
-        font-family: "Great Vibes", cursive;
-        height: 100%;
-        padding: 0 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-      img{
-        max-width: 400px;
-        width: 100%;
-        object-fit: cover;
-      }
-      h1 {
-        margin: 0;
-        text-align: center;
-        color: #da50b5;
-        text-shadow: 4px 4px 7px rgba(218,98,98,0.6);
-      }
-      h1:first-child{
-        font-size: 30px;
-      }
-    </style>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div id="card">
+        <div id="card-inside">
+          <div class="wrap wishesFont">
+            <center>
+              <p> Ты для меня стала невероятно близким человеком, слово я всю жизнь искал тебя, сам этого не понимая. И вот, когда пришло время судьбе исполнить свой план: сплести наши души воедино, я хочу каждое мгновение разделять с тобой. </p>
+              <p> Ты моя огромная радость в этом мире, без тебя он не такой яркий. Очень сильно жду тебя, жду момента, когда снова увижу тебя и смогу окунуться в сладкий мир твоих объятий. <br>
+              <p> Люблю тебя каждыми секундами, минутами, часами, днями, и ночами. Неделями, месяцами, годами и веками... </p>
+            </center>
+            <p class="signed">С бесконечной любовью, <br> твой Эржан </p>
+          </div>
+        </div>
+        <div id="card-front">
+          <div class="wrap">
+            <h1>Happy Valentine!!!</h1>
+            <div id="heart">
+              <canvas id="canvas" style="width: 100%;height: 100%;">
+            </div>
+          </div>
+          <button id="open"
+          
+          >Открыть</button>
+          <button id="close"
+            
+          >Закрыть</button>
+          <div class="card-front_inside">
+            <br>
+            <br>
+            <br>
+            <div class="polaroid">
+              <div class="img" style="background-image: url('file.jpg')"></div>
+            </div>
+            <div class="shadow"></div>
+          </div>
+        </div>
+        <script src="js/index.js"></script>
+        <script src="js/canvas.js"></script>
   </body>
 </html>
